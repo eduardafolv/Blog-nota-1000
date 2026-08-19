@@ -1,22 +1,59 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nota 1000</title>
-    <link rel="styleshet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Blog nota 1000</title>
+<link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <header>
-        <h1>titulo</h1>
-        <p>introduçao</p>
-    </header>
-    <main>
-        <h2>subtitulo</h2>
-        <p>bem-vindo ao meu site</p>
-    </main>
-    <footer>
-         <p>por: Eduarda Ferreira</p>
-    </footer>
+<header>
+<h1>Blog nota 1000</h1>
+<p>A redação do ENEM pode parecer um desafio gigante para quem faz a prova pela primeira vez.
+    O medo da folha em branco é normal, mas a escrita nota 1000 não depende de talento, e sim de técnica e prática.
+    Criamos este espaço acolhedor para guiar você, passo a passo, na estrutura ideal do texto dissertativo-argumentativo.
+    Aqui, desmistificamos os critérios de correção e ajudamos você a transformar insegurança em aprovação. Prepare a caneta preta e comece o seu futuro!
+</p>
+</header>
+<main>
+<img src="tech.png"
+alt="Uma imagem digital que retrata um cenário futurista e tecnológico. No centro, uma jovem mulher negra trabalha concentrada em seu escritório doméstico de alta tecnologia à noite, interagindo com uma tela flutuante holográfica e translúcida. Ao fundo, através de uma grande janela de vidro, avista-se uma metrópole moderna iluminada com tráfego aéreo de drones.">
+
+<div>
+<h2>Meu primeiro Post</h2>
+<p class="autor">Por: Ailine Rodrigues</p>
+<p>Meu primeiro post sobre tecnologia</p>
+<button>😁<span>0</span></button>
+<button>🥰<sapan>0</sapan></button>
+</div>
+
+</main>
+<footer>
+<p>Por: Aline Rodrigues</p>
+</footer>
 </body>
+
+<script>
+const botoes = document.querySelectorAll("button");
+
+botoes.forEach(function (botao) {
+let curtiu = false;
+botao.addEventListener("click", botaoClicado);
+function botaoClicado() {
+console.log("fui clicado");
+let texto = botao.querySelector("span");
+if (curtiu === false){
+texto.textContent++;
+curtiu = true;
+} else{
+texto.textContent--;
+curtiu = false;
+}
+}
+})
+
+
+</script>
 </html>
