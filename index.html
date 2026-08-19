@@ -2,58 +2,62 @@
 <html lang="pt-br">
 
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Blog nota 1000</title>
-<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog nota 1000</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-<header>
-<h1>Blog nota 1000</h1>
-<p>A redação do ENEM pode parecer um desafio gigante para quem faz a prova pela primeira vez.
-    O medo da folha em branco é normal, mas a escrita nota 1000 não depende de talento, e sim de técnica e prática.
-    Criamos este espaço acolhedor para guiar você, passo a passo, na estrutura ideal do texto dissertativo-argumentativo.
-    Aqui, desmistificamos os critérios de correção e ajudamos você a transformar insegurança em aprovação. Prepare a caneta preta e comece o seu futuro!
-</p>
-</header>
-<main>
-<img src="https://s2-redeglobo.glbimg.com/UxdtyODFBDsFOAXBN7s5pMnH4wE=/0x0:659x512/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_b58693ed41d04a39826739159bf600a0/internal_photos/bs/2025/V/w/cj3QedTPGvbjrAUlYMng/8ae2d459-4069-47d2-95f1-8420d8fc29c6.jp"
-alt="A imagem mostra um leque de cadernos de prova do ENEM (Exame Nacional do Ensino Médio) espalhados sobre uma superfície escura e brilhante, com uma caneta esferográfica preta sobre eles.">
+    <header>
+        <h1>Blog nota 1000</h1>
+        <p>A redação do ENEM pode parecer um desafio gigante para quem faz a prova pela primeira vez.
+            O medo da folha em branco é normal, mas a escrita nota 1000 não depende de talento, e sim de técnica e
+            prática.
+            Criamos este espaço acolhedor para guiar você, passo a passo, na estrutura ideal do texto
+            dissertativo-argumentativo.
+            Aqui, desmistificamos os critérios de correção e ajudamos você a transformar insegurança em aprovação.
+            Prepare a caneta preta e comece o seu futuro!
+        </p>
+    </header>
+    <main>
+        <img src="https://s2-redeglobo.glbimg.com/UxdtyODFBDsFOAXBN7s5pMnH4wE=/0x0:659x512/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_b58693ed41d04a39826739159bf600a0/internal_photos/bs/2025/V/w/cj3QedTPGvbjrAUlYMng/8ae2d459-4069-47d2-95f1-8420d8fc29c6.jpg"
+            alt="A imagem mostra um leque de cadernos de prova do ENEM (Exame Nacional do Ensino Médio) espalhados sobre uma superfície escura e brilhante, com uma caneta esferográfica preta sobre eles.">
 
-<div>
-<h2>Meu primeiro Post</h2>
-<p class="autor">Por: Eduarda Ferreira</p>
-<p>Meu primeiro post sobre tecnologia</p>
-<button>📈​ Notas subiram<span>0</span></button>
-<button>📉Notas desceram<sapan>0</sapan></button>
-</div>
+        <div>
+            <h2>Meu primeiro Post</h2>
+            <p class="autor">Por: Eduarda Ferreira</p>
+            <p>Meu primeiro post sobre tecnologia</p>
+            <button>📈​ Notas subiram <span>0</span></button>
+            <button>📉 Notas cairam <span>0</span></button>
+        </div>
 
-</main>
-<footer>
-<p>Por: Aline Rodrigues</p>
-</footer>
+    </main>
+    <footer>
+        <p>Por: Eduarda Ferreira</p>
+    </footer>
 </body>
 
 <script>
-const botoes = document.querySelectorAll("button");
+    const botoes = document.querySelectorAll("button");
 
-botoes.forEach(function (botao) {
-let curtiu = false;
-botao.addEventListener("click", botaoClicado);
-function botaoClicado() {
-console.log("fui clicado");
-let texto = botao.querySelector("span");
-if (curtiu === false){
-texto.textContent++;
-curtiu = true;
-} else{
-texto.textContent--;
-curtiu = false;
-}
-}
-})
+    botoes.forEach(function (botao) {
+        let curtiu = false;
+        botao.addEventListener("click", botaoClicado);
+        function botaoClicado() {
+            console.log("fui clicado");
+            let texto = botao.querySelector("span");
+            if (curtiu === false) {
+                texto.textContent++;
+                curtiu = true;
+            } else {
+                texto.textContent--;
+                curtiu = false;
+            }
+        }
+    })
 
 
 </script>
+
 </html>
