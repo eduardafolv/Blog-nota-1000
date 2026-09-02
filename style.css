@@ -21,7 +21,7 @@
 
 header {
     background-color:var(--cor-contraste);
-    color: var(--cor-contraste);
+    color: var(--cor-texto);
     text-align: center;
     max-width: 800px;
     margin: 5px solid #39c4eb;
@@ -30,7 +30,7 @@ header {
 
 main {
     background-color:var(--cor-contraste);
-    color: var(--cor-contraste);
+    color: var(--cor-texto);
     max-width: 800px;
     margin: 0 auto;
     border: 5px solid #39c4eb;
