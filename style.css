@@ -1,11 +1,12 @@
-:root{ --cor-primaria:#ffd6ff;
+:root{ 
+--cor-primaria:#ffd6ff;
 --cor-segundaria:#e7c6ff;
 --cor-fundo:#c8b6ff;
 --cor-texto:#b8c0ff;
 --cor-contraste:#8fbbd0ff;
 --cor-botao:#a5fdff;
 }
-{
+*{
     transition: background-color 0.8s ease;
 }
 .tema-escuro { 
@@ -19,8 +20,8 @@
 
 
 header {
-    background-color: #ed64a6;
-    color: #ffff;
+    background-color:var(--cor-contraste);
+    color: var(--cor-contraste);
     text-align: center;
     max-width: 800px;
     margin: 5px solid #39c4eb;
@@ -28,8 +29,8 @@ header {
 }
 
 main {
-    background-color: #fff;
-    color: #183C63;
+    background-color:var(--cor-contraste);
+    color: var(--cor-contraste);
     max-width: 800px;
     margin: 0 auto;
     border: 5px solid #39c4eb;
