@@ -2,8 +2,8 @@
 --cor-primaria:#ffd6ff;
 --cor-segundaria:#e7c6ff;
 --cor-fundo:#c8b6ff;
---cor-texto:#b8c0ff;
---cor-contraste:#8fbbd0ff;
+--cor-texto:#e63946;
+--cor-contraste:#1d3557;
 --cor-botao:#a5fdff;
 }
 *{
@@ -24,7 +24,7 @@ header {
     color: var(--cor-texto);
     text-align: center;
     max-width: 800px;
-    margin: 5px solid #39c4eb;
+    margin: 5px solid;
     padding: 16px;
 }
 
