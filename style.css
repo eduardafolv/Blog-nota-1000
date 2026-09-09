@@ -33,9 +33,9 @@ main {
     background-color:var(--cor-primaria);
     color: var(--cor-botao);
     max-width: 800px;
-    margin: 0 auto;
+    margin: 5px auto;
     border: 5px solid var(--cor-fundo);
-    padding: 15px;
+    padding: 16px;
 
 }
 
