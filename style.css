@@ -33,7 +33,7 @@ main {
     background-color:var(--cor-primaria);
     color: var(--cor-botao);
     max-width: 800px;
-    margin: 5px auto;
+    margin: 5px solid;
     border: 5px solid var(--cor-fundo);
     padding: 16px;
 
