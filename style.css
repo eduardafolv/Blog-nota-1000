@@ -1,10 +1,10 @@
 :root{ 
---cor-primaria:#FDFBF7;
+--cor-primaria:#88abce;
 --cor-segundaria:#D4A373;
---cor-fundo:#FAEDCD ;
+--cor-fundo:#E1ECF0;
 --cor-texto:#CCD5AE;
 --cor-contraste:#E8A598 ;
---cor-botao:#B7B7A4;
+--cor-botao:#7A92A3;
 }
 *{
     transition: background-color 0.8s ease;
