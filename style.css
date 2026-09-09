@@ -1,30 +1,30 @@
 :root{ 
---cor-primaria:#ffd6ff;
---cor-segundaria:#e7c6ff;
---cor-fundo:#c8b6ff;
---cor-texto:#e63946;
---cor-contraste:#1d3557;
---cor-botao:#a5fdff;
+--cor-primaria:#FDFBF7;
+--cor-segundaria:#D4A373;
+--cor-fundo:#FAEDCD ;
+--cor-texto:#CCD5AE;
+--cor-contraste:#E8A598 ;
+--cor-botao:#B7B7A4;
 }
 *{
     transition: background-color 0.8s ease;
 }
 .tema-escuro { 
---cor-primaria:#4d858f;
---cor-segundaria:#2E468F;
---cor-fundo:#41518f;
---cor-texto:#545b8f;
---cor-contraste:#8f858f;
---cor-botao:#3E668F;
+--cor-primaria:#2C2A29 ;
+--cor-segundaria:#5C3A21 ;
+--cor-fundo:#8B7355 ;
+--cor-texto:#3B472E ;
+--cor-contraste:#6B2D26 ;
+--cor-botao:#3D403A ;
 }
 
 
 header {
-    background-color:var(--cor-contraste);
-    color: var(--cor-texto);
+    background-color:var(--cor-primaria);
+    color: var(--cor-botao);
     text-align: center;
     max-width: 800px;
-    margin: 5px solid;
+    margin: 5px solid var(--cor-fundo);
     padding: 16px;
 }
 
@@ -33,7 +33,7 @@ main {
     color: var(--cor-texto);
     max-width: 800px;
     margin: 0 auto;
-    border: 5px solid #39c4eb;
+    border: 5px solid ;
     padding: 15px;
 
 }
