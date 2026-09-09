@@ -24,16 +24,17 @@ header {
     color: var(--cor-botao);
     text-align: center;
     max-width: 800px;
-    margin: 5px solid var(--cor-fundo);
+    margin: 5px solid;
     padding: 16px;
+    border: 5px solid var(--cor-fundo);
 }
 
 main {
-    background-color:var(--cor-contraste);
-    color: var(--cor-texto);
+    background-color:var(--cor-primaria);
+    color: var(--cor-botao);
     max-width: 800px;
     margin: 0 auto;
-    border: 5px solid ;
+    border: 5px solid var(--cor-fundo);
     padding: 15px;
 
 }
